@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    font-family: poppins, sans-serif;
+
+}
+.container{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-image: url('imgs/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.newbeg{
+    display: flex;
+    color: white;
+    text-shadow: white;
+    font-size: 30px;
+
+}
+
+
+/*    display: flex;
+    color: white;
+    text-shadow: white;
+    position: relative;
+    font-size: 30px;
+    justify-content: center;
+    min-height: 100%;
+    align-items: center;*/
