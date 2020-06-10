@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    font-family: Poppins, sans-serif;
+}
+.container{
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+}
+
+.bar{
+    height: 40px;
+    background-color: #3a3633;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    flex:1;    /*For self; this line makes the content box expand by 1 unit */
+}
